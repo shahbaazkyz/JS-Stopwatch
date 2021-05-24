@@ -1,0 +1,77 @@
+body{
+background: radial-gradient(circle at 50% 16%, #000203 32%, #3f679d 88%);
+  background-repeat: no-repeat;
+
+    color: white;
+    height: 100vh;
+}
+
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box div {
+width: 379px;
+height: 334px;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: linear-gradient(to bottom, #0c3d69 16%, #116c97 95%);
+box-shadow: 0 4px 36px 0 rgba(0, 0, 0, 0.5);
+border-radius: 8px;
+overflow: hidden;
+}
+
+.clock p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top:160px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* font-family: "Share Tech Mono", sans-serif; */
+    font-size: 3rem;
+    font-weight: 300;
+}
+.abc:after{
+    content: ":";
+    position: relative;
+    left: 10px;
+    bottom: 3px;
+}
+.clock h1{
+    display: inline-block !important;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: 'Roboto Mono',
+    monospace;
+
+    /* width: 100px !important; */
+}
+#mins{
+    top: 100px;
+    left: 70px;
+}
+#secs{
+    top: 100px;
+    left: 170px;
+}
+#mSecs{
+    top: 100px;
+    left: 260px;
+}
+
+.btn{
+    color: white ;
+}
+
