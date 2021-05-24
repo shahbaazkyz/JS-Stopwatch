@@ -19,10 +19,11 @@ function start() {
             mSecs = 00;
         }
         
-        else if (secs >= 59) {
+        else if (secs >=60) {
+            secs = 00;
+             dSeconds.innerHTML = secs;
             mins++;
             dMinutes.innerHTML = mins;
-            secs = 00;
         }
     }, 10);
     document.getElementById('start').disabled = true;
